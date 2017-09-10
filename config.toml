@@ -13,7 +13,7 @@ disqusShortname = "leonidboykov"
   accent = "#2F4050"
   showBorder = true
   backgroundColor = "white"
-  font = "Montserrat"
+  font = "Varela Round"
   highlight = true
   highlightStyle = "magula"
   highlightLanguages = ["go", "yaml"]
@@ -32,6 +32,11 @@ disqusShortname = "leonidboykov"
   url = "/project/"
   name = "Projects"
   weight = 3
+
+[[menu.main]]
+  url = "/about/"
+  name = "About"
+  weight = 4
 
 [[menu.icon]]
   url = "https://twitter.com/leonidboykov/"
