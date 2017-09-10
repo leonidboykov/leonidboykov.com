@@ -6,7 +6,7 @@ disqusShortname = "leonidboykov"
 
 
 [params]
-  copyright = "Copyright &copy; 2017 Leonid Boykov"
+  copyright = "Copyright &copy; 2017 Leonid Boykov. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)"
   author = "Leonid Boykov"
   description = "Blogger &bull; Programmer &bull; Gopher"
   githubUsername = "leonidboykov"
