@@ -1,6 +1,6 @@
 +++
 title = "About"
-date = "2017-02-06T02:25:08+03:00"
+date = "2017-09-10T02:25:08+03:00"
 disableComments = true
 +++
 
