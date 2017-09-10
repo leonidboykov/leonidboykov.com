@@ -34,12 +34,12 @@ disqusShortname = "leonidboykov"
   weight = 3
 
 [[menu.icon]]
-  url = "https://twitter.com/username/"
+  url = "https://twitter.com/leonidboykov/"
   name = "twitter"
   weight = 1
 
 [[menu.icon]]
-  url = "https://github.com/username/"
+  url = "https://github.com/leonidboykov/"
   name = "github"
   weight = 2
 
