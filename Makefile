@@ -10,7 +10,7 @@ build: ## Build site
 	@hugo
 
 server: ## Serve site
-	@hugo server --bind "0.0.0.0"
+	@hugo server --bind "0.0.0.0" --buildDrafts --buildFuture
 
 theme: ## Update theme via git-submodule
 	@git submodule update --remote

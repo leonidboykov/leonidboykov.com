@@ -1,7 +1,7 @@
 +++
 title = "Hello World"
 date = "2017-02-06T02:25:08+03:00"
-tags = [ "go", "golang", "hugo", "development"]
+tags = [ "hello", "hugo"]
 draft = false
 +++
 
