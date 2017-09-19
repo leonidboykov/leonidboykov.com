@@ -12,8 +12,8 @@ Hi, my name is Leonid Boykov. I haven't finished this section, but I will.
 
 #### Cookie Policy
 
-I'm not using Google Analytics on this site, however there is Disqus commenting
-system in blog posts with some cookies stuff.
+I'm not using Google Analytics on this site and all Disqus related tracking
+features are disabled.
 
 ---
 
