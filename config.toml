@@ -14,9 +14,16 @@ disqusShortname = "leonidboykov"
   showBorder = true
   backgroundColor = "white"
   font = "Varela Round"
-  highlight = true
-  highlightStyle = "magula"
-  highlightLanguages = ["go", "yaml"]
+  pygmentsCodeFences = true
+  pygmentsStyle = "friendly"
+  # line numbers are selectable, turn off for now
+  pygmentsOptions = "linenos=false"
+
+  # disable highlight in favour of new chroma highlighter
+  highlight = false
+  # highlightStyle = "magula"
+  # highlightLanguages = ["go", "yaml"]
+
 
 [[menu.main]]
   url = "/"
