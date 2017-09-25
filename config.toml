@@ -7,7 +7,7 @@ disqusShortname = "leonidboykov"
 pygmentsCodeFences = true
 pygmentsStyle = "friendly"
 # line numbers are selectable, turn off for now
-pygmentsOptions = "linenos=false"
+# pygmentsOptions = "linenos=true"
 
 [params]
   copyright = "Copyright &copy; 2017 Leonid Boykov. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)"
