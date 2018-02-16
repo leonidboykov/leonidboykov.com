@@ -17,7 +17,8 @@ pygmentsStyle = "friendly"
   accent = "#2F4050"
   showBorder = true
   backgroundColor = "white"
-  font = "Varela Round"
+  # font = "Varela Round"
+  font = "Inconsolata"
 
   # disable highlight in favour of new chroma highlighter
   highlight = false
