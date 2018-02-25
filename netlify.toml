@@ -11,5 +11,5 @@
 [context.deploy-preview]
   command = "hugo --buildDrafts --buildFuture"
 
-  [context.deploy-previewproduction.environment]
+  [context.deploy-preview.environment]
     HUGO_VERSION = "0.36.1"
