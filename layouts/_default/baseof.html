@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{ .Hugo.Generator }}
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
+
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+  </head>
+  <body>
+    <header>
+      {{ partialCached "header" . }}
+    </header>
+    <main>
+      <div class="container">
+        {{ block "content" . }}{{ end }}
+      </div>
+    </main>
+    <footer>
+      {{ partialCached "footer" . }}
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </body>
+</html>

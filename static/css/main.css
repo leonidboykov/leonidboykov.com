@@ -1,0 +1,200 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+html body {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibilit;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b324d4;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px;
+  flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.nav-menu {
+  margin-top: 10px;
+}
+
+.nav-menu a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.nav-menu a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-social a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.nav-social a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-social {
+    margin-top: 16px;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.post-item:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

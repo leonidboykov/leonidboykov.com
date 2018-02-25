@@ -1,9 +1,9 @@
-+++
-title = "Deploy Hugo site to Github Pages with Travis CI"
-date = "2017-05-10T22:17:48+03:00"
-tags = ["go", "hugo", "static site"]
-draft = false
-+++
+---
+title: "Deploy Hugo site to Github Pages with Travis CI"
+date: "2017-05-10T22:17:48+03:00"
+tags: ["go", "hugo", "static site"]
+draft: false
+---
 **Update [2017-09-10]:** This website is deploys by [Netlify](https://www.netlify.com). This
 post contains old pipeline for deploying my static site.
 

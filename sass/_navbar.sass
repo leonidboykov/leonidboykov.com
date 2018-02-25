@@ -1,0 +1,44 @@
+header
+  display: flex
+  justify-content: space-around
+
+.nav
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  a
+    text-decoration: none
+
+  &-left
+
+  &-right
+
+  &-title
+    font-weight: 700
+    font-size: 3rem
+
+  &-menu
+    margin-top: 10px
+    a
+      color: $secondary-text
+      &:hover
+        color: $primary-text
+  &-social
+    a
+      color: $secondary-text
+      &:hover
+        color: $primary-text
+  &-item
+    margin-right: 25px
+    &:last-child
+      margin-right: 0
+
+
+@media (max-width: 600px)
+  .nav
+    flex-direction: column
+    text-align: center
+
+    &-social
+      margin-top: 16px
