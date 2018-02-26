@@ -12,11 +12,11 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
   </head>
   <body>
+    {{ partialCached "header" . }}
     <main class="wrapper">
-      {{ partialCached "header" . }}
       {{ block "content" . }}{{ end }}
-      {{ partialCached "footer" . }}
     </main>
+    {{ partialCached "footer" . }}
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </body>
   </html>

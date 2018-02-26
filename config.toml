@@ -5,8 +5,9 @@ title = "Leonid Boykov"
 disqusShortname = "leonidboykov"
 
 [params]
-  accent = "#2F4050"
-  font = "Inconsolata"
+  githubUsername = "leonidboykov"
+  gitlabUsername = "leonidboykov"
+  bitbucketUsername = "leonidboykov"
 
 [[menu.main]]
   url = "/about/"
