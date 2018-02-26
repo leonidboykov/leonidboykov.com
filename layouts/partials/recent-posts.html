@@ -1,9 +1,0 @@
-<div class="post-list">
-{{ range first 5 (where .Site.RegularPages "Section" "post") }}
-  <div class="post-item">
-    <a class="post-title" href="{{ .URL }}">{{ .LinkTitle }}</a>
-    <div class="post-date">{{ .Date.Format "2 Jan 2006" }}</div>
-  </div>
-{{ end }}
-</div>
-

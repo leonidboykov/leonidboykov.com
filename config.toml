@@ -2,6 +2,8 @@ baseURL = "https://www.leonidboykov.com/"
 languageCode = "en-us"
 title = "Leonid Boykov"
 
+disqusShortname = "leonidboykov"
+
 [params]
   accent = "#2F4050"
   font = "Inconsolata"
@@ -57,38 +59,3 @@ title = "Leonid Boykov"
 #   # highlightStyle = "magula"
 #   # highlightLanguages = ["go", "yaml"]
 
-
-# [[menu.main]]
-#   url = "/"
-#   name = "Home"
-#   weight = 1
-
-# [[menu.main]]
-#   url = "/post/"
-#   name = "Posts"
-#   weight = 2
-
-# [[menu.main]]
-#   url = "/project/"
-#   name = "Projects"
-#   weight = 3
-
-# [[menu.main]]
-#   url = "/about/"
-#   name = "About"
-#   weight = 4
-
-# [[menu.icon]]
-#   url = "https://twitter.com/leonidboykov/"
-#   name = "twitter"
-#   weight = 1
-
-# [[menu.icon]]
-#   url = "https://github.com/leonidboykov/"
-#   name = "github"
-#   weight = 2
-
-# [[menu.icon]]
-#   url = "https://gitlab.com/leonidboykov/"
-#   name = "gitlab"
-#   weight = 3

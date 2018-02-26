@@ -1,10 +1,12 @@
-@import "../node_modules/minireset.css/minireset.sass"
+@import "../node_modules/normalize.css/normalize"
+@import overrides
+@import "../node_modules/milligram/src/milligram.sass"
 
-@import colors
-@import base
-@import layout
-@import navbar
-@import content
-@import footer
+html body
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
 
-@import recent-posts
+@import wrapper
+@import navigation
+

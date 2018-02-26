@@ -4,6 +4,78 @@ date: "2017-05-10T22:17:48+03:00"
 tags: ["go", "hugo", "static site"]
 draft: false
 ---
+BEGINTEST
+***
+
+# Header 1
+
+Some text
+
+Header 1
+========
+
+Some text
+
+## Header 2
+
+Some text
+
+Header 2
+--------
+
+Some text
+
+### Header 3
+
+Some text
+
+#### Header 4
+
+Some text
+
+##### Header 5
+
+Some text
+
+Here is some test text. Let's try **bold** and _italic_. Some `todo` text aaand
+
+```go
+func main() {
+    fmt.Println("Hello, there")
+}
+```
+
+Yep, some quotes
+
+> Lorem ipsum
+>
+> some q more
+
+Lists:
+
+* One
+* Two
+* Three
+
+and
+
+1. One
+2. Two
+3. Three
+
+and table
+
+| Id | Title      | Sex | Class   | Rating |
+|----|------------|-----|---------|--------|
+| 1  | Mercy      | F   | Support | 4000   |
+| 2  | D.Va       | F   | Tank    | 5000   |
+| 3  | Widowmaker | F   | Offence | 3000   |
+
+Ok, this should looks better.
+
+***
+ENDTEST
+
 **Update [2017-09-10]:** This website is deploys by [Netlify](https://www.netlify.com). This
 post contains old pipeline for deploying my static site.
 

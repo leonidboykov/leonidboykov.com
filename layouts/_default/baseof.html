@@ -6,23 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{ .Hugo.Generator }}
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
 
     <title>{{ .Title }} - {{ .Site.Title }}</title>
   </head>
   <body>
-    <header>
+    <main class="wrapper">
       {{ partialCached "header" . }}
-    </header>
-    <main>
-      <div class="container">
-        {{ block "content" . }}{{ end }}
-      </div>
-    </main>
-    <footer>
+      {{ block "content" . }}{{ end }}
       {{ partialCached "footer" . }}
-    </footer>
+    </main>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </body>
-</html>
+  </html>

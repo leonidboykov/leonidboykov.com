@@ -1,19 +1,22 @@
-<div class="container">
-  <nav class="nav">
-    <div class="nav-left">
-      <a class="nav-title" href="/">{{ .Site.Title }}</a>
-      <div class="nav-menu">
+<header class="header">
+  <section class="container">
+    <nav class="navigation">
+      <div class="navigation-left">
+        <a class="navigation-title" href="/">{{ .Site.Title }}</a>
+        <div class="navigation-list">
         {{ range .Site.Menus.main }}
-        <a class="nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          <a class="navigation-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
         {{ end }}
+        </div>
       </div>
-    </div>
-    <div class="nav-right">
-      <div class="nav-social">
+      <div class="navigation-right">
+        <div class="navigation-social">
         {{ range .Site.Menus.social }}
-        <a class="nav-item" href="{{ .URL }}"><i class="fab fa-{{ .Name }}"></i></a>
+          <a class="navigation-item" href="{{ .URL }}"><i class="fab fa-{{ .Name }}"></i></a>
         {{ end }}
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </section>
+</header>
+

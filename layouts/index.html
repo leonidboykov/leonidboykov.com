@@ -1,3 +1,4 @@
 {{ define "content" }}
-  {{ partial "recent-posts" . }}
+  {{ $posts := first 5 (where .Site.RegularPages "Section" "post") }}
+  {{ partial "posts-list" (dict "Title" "Recent Posts" "Pages" $posts) }}
 {{ end }}
