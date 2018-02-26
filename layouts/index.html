@@ -1,4 +1,10 @@
 {{ define "content" }}
+  {{ if .Content }}
+  <section class="container">
+    {{ .Content }}
+  </section>
+  {{ end }}
+
   {{ $posts := first 5 (where .Site.RegularPages "Section" "post") }}
   {{ partial "posts-list" (dict "Title" "Recent Posts" "Pages" $posts) }}
 {{ end }}
