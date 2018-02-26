@@ -1,0 +1,15 @@
+<section class="container">
+{{ if or .Paginator.HasPrev .Paginator.HasNext }}
+  <div class="clearfix">
+    {{ if .Paginator.HasPrev }}
+    <a class="button button-outline float-left" href="{{ .Paginator.Prev.URL }}" rel="prev">
+      prev
+    </a>
+    {{ end }} {{ if .Paginator.HasNext }}
+    <a class="button button-outline float-right" href="{{ .Paginator.Next.URL }}" rel="next">
+      next
+    </a>
+    {{ end }}
+  </div>
+{{ end }}
+</section>
