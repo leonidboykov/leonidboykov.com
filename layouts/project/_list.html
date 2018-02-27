@@ -1,0 +1,25 @@
+{{ define "content" }}
+  {{ $posts := (.Paginator 5).Pages }}
+  {{ range (.Paginator 10).Pages }}
+    <section class="container">
+      <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+      {{ $.Scratch.Set "link" .RelPermalink }}
+      {{ with .Params.repo }}
+          {{ $repoHost := default "github" $.Params.repoHost }}
+          {{ if eq "github" $repoHost }}
+              {{ printf "https://github.com/%s/%s/" $.Site.Params.githubUsername . | $.Scratch.Set "link" }}
+          {{ else if eq "gitlab" $repoHost }}
+              {{ printf "https://gitlab.com/%s/%s/" $.Site.Params.gitlabUsername . | $.Scratch.Set "link" }}
+          {{ else if eq "bitbucket" $repoHost }}
+              {{ printf "https://bitbucket.org/%s/%s/" $.Site.Params.bitbucketUsername . | $.Scratch.Set "link" }}
+          {{ end }}
+      {{ end }}
+      {{ with .Params.link }} {{ $.Scratch.Set "link" . }} {{ end }}
+      {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
+      <p>{{ $.Scratch.Get "subtitle" }}</p>
+      <a class="button button-outline" href="{{ $.Scratch.Get "link" }}"><i class="fab fa-github"></i> Repo</a>
+    </section>
+  {{ end }}
+  {{ partial "paginator" . }}
+{{ end }}
+

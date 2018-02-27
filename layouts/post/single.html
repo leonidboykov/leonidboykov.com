@@ -1,0 +1,16 @@
+{{ define "content" }}
+  <section class="container">
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+  </section>
+  {{ $related := first 3 (where (where (where .Site.Pages.ByDate.Reverse ".Type" "==" "post") ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+  {{ if $related }}
+    {{ partial "posts-list-lite" (dict "Title" "Related Posts" "Pages" $related) }}
+  {{ end }}
+  <section class="container">
+    {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
+      <h3>Comments</h3>
+      {{ template "_internal/disqus.html" . }}
+    {{ end }}
+  </section>
+{{ end }}

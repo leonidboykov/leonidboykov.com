@@ -6,5 +6,5 @@
   {{ end }}
 
   {{ $posts := first 5 (where .Site.RegularPages "Section" "post") }}
-  {{ partial "posts-list" (dict "Title" "Recent Posts" "Pages" $posts) }}
+  {{ partial "posts-list-lite" (dict "Title" "Recent Posts" "Pages" $posts) }}
 {{ end }}

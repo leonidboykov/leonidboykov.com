@@ -1,0 +1,10 @@
+<section class="container">
+  <h2>{{ .Title }}</h2>
+</section>
+{{ range .Pages }}
+  <article class="container">
+    <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary }}</p>
+    <a class="button button-outline" href="{{ .URL }}">Read More</a>
+  </article>
+{{ end }}
