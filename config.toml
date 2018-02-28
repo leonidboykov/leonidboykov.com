@@ -1,8 +1,19 @@
 baseURL = "https://www.leonidboykov.com/"
-languageCode = "en-us"
+languageCode = "en"
+
 title = "Leonid Boykov"
+theme = "mercy"
+
+copyright = "Copyright &copy; {year} Leonid Boykov"
+
+pygmentsCodeFences = true
+pygmentsStyle = "friendly"
+pygmentsOptions = "nobackground=false"
 
 disqusShortname = "leonidboykov"
+
+[social]
+  twitter = "leonidboykov"
 
 [params]
   githubUsername = "leonidboykov"
@@ -35,28 +46,4 @@ disqusShortname = "leonidboykov"
   url = "https://gitlab.com/leonidboykov/"
   name = "gitlab"
   weight = 3
-
-
-# theme = "minimal"
-# disqusShortname = "leonidboykov"
-
-# pygmentsCodeFences = true
-# pygmentsStyle = "friendly"
-# # line numbers are selectable, turn off for now
-# pygmentsOptions = "linenos=false"
-
-# [params]
-#   copyright = "Copyright &copy; 2017 Leonid Boykov. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)"
-#   author = "Leonid Boykov"
-#   description = "Blogger &bull; Programmer &bull; Gopher"
-#   githubUsername = "leonidboykov"
-#   accent = "#2F4050"
-#   showBorder = true
-#   backgroundColor = "white"
-#   font = "Varela Round"
-
-#   # disable highlight in favour of new chroma highlighter
-#   highlight = false
-#   # highlightStyle = "magula"
-#   # highlightLanguages = ["go", "yaml"]
 

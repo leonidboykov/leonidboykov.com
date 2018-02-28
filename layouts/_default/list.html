@@ -1,5 +1,0 @@
-{{ define "content" }}
-  {{ $posts := (.Paginator 5).Pages }}
-  {{ partial "posts-list-full" (dict "Title" .Title "Pages" $posts) }}
-  {{ partial "paginator" . }}
-{{ end }}
