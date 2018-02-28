@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "page"
+    label: "Page"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Disable Comments", name: "disableComments", widget: "hidden", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}

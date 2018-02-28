@@ -1,9 +1,9 @@
-+++
-title = "Windows Package Manager"
-date = 2017-09-13T22:17:48+03:00
-tags = ["scoop", "windows", "terminal", "package manager"]
-draft = true
-+++
+---
+title: "Windows Package Manager"
+date: 2017-09-13T22:17:48+03:00
+tags: ["scoop", "windows", "terminal", "package manager"]
+draft: true
+---
 
 I've always wanted something similar to [Homebrew][brew] for macOS but for
 Windows. While there is already exists the [Chocolatey][choco] manager, I found
