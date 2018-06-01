@@ -6,8 +6,6 @@ tags:
 - hugo
 
 ---
-## Hello
-
 After years of laziness I decided to update my blog. I migrated to
 [Hugo](https://gohugo.io/) from Jekyll and it's awesome! Moreover, Hugo fits
 amazingly to my recent work with the laboratory website, that I created before.
