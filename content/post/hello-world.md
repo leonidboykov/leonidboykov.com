@@ -1,10 +1,11 @@
 ---
-title: "Hello World"
-date: "2017-02-06T02:25:08+03:00"
-tags: [ "hello", "hugo"]
-draft: false
----
+title: Hello World
+date: 2017-02-06 02:25:08 +0300
+tags:
+- hello
+- hugo
 
+---
 ## Hello
 
 After years of laziness I decided to update my blog. I migrated to
