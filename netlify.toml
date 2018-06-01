@@ -18,3 +18,9 @@
 
   [context.branch-deploy.environment]
     HUGO_VERSION = "0.41"
+
+[[redirects]]
+  from = "https://leonidboykov.netlify.com/*"
+  to = "https://leonidboykov.com/:splat"
+  status = 301
+  force = true
