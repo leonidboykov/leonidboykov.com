@@ -18,7 +18,7 @@ fields:
   hidden: false
   default: true
 - name: disableComments
-  label: Disablecomments
+  label: Disable Comments
   type: boolean
-  hidden: false
+  hidden: true
   default: true
