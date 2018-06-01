@@ -1,9 +1,12 @@
 +++
-title = "About"
 date = "2017-09-10T02:25:08+03:00"
 disableComments = true
-+++
+title = "About"
+type = "page"
+[menu.main]
+weight = 1
 
++++
 #### About Me
 
 Hi, my name is Leonid Boykov. I haven't finished this section, but I will.

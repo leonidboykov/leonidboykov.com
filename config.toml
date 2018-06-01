@@ -1,49 +1,35 @@
 baseURL = "https://www.leonidboykov.com/"
-languageCode = "en"
-
-title = "Leonid Boykov"
-theme = "mercy"
-
 copyright = "Copyright &copy; {year} Leonid Boykov"
-
-pygmentsCodeFences = true
-pygmentsStyle = "friendly"
-pygmentsOptions = "nobackground=false"
-
 disqusShortname = "leonidboykov"
-
-[social]
-  twitter = "leonidboykov"
-
+languageCode = "en"
+pygmentsCodeFences = true
+pygmentsOptions = "nobackground=false"
+pygmentsStyle = "friendly"
+theme = "mercy"
+title = "Leonid Boykov"
+[[menu.main]]
+name = "Projects"
+url = "/project/"
+weight = 3
+[[menu.main]]
+name = "Blog"
+url = "/post/"
+weight = 2
+[[menu.social]]
+name = "gitlab"
+url = "https://gitlab.com/leonidboykov/"
+weight = 3
+[[menu.social]]
+name = "github"
+url = "https://github.com/leonidboykov/"
+weight = 2
+[[menu.social]]
+name = "twitter"
+url = "https://twitter.com/leonidboykov/"
+weight = 1
 [params]
-  githubUsername = "leonidboykov"
-  gitlabUsername = "leonidboykov"
-  bitbucketUsername = "leonidboykov"
-
-[[menu.main]]
-  url = "/about/"
-  name = "About"
-  weight = 1
-[[menu.main]]
-  url = "/post/"
-  name = "Blog"
-  weight = 2
-[[menu.main]]
-  url = "/project/"
-  name = "Projects"
-  weight = 3
-[[menu.social]]
-  url = "https://twitter.com/leonidboykov/"
-  name = "twitter"
-  weight = 1
-
-[[menu.social]]
-  url = "https://github.com/leonidboykov/"
-  name = "github"
-  weight = 2
-
-[[menu.social]]
-  url = "https://gitlab.com/leonidboykov/"
-  name = "gitlab"
-  weight = 3
-
+bitbucketusername = "leonidboykov"
+githubusername = "leonidboykov"
+gitlabusername = "leonidboykov"
+[social]
+twitter = "leonidboykov"
