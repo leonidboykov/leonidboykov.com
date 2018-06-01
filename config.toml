@@ -32,16 +32,15 @@ disqusShortname = "leonidboykov"
   url = "/project/"
   name = "Projects"
   weight = 3
+
 [[menu.social]]
   url = "https://twitter.com/leonidboykov/"
   name = "twitter"
   weight = 1
-
 [[menu.social]]
   url = "https://github.com/leonidboykov/"
   name = "github"
   weight = 2
-
 [[menu.social]]
   url = "https://gitlab.com/leonidboykov/"
   name = "gitlab"
