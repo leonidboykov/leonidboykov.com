@@ -1,4 +1,5 @@
 ---
+label: project
 hide_body: false
 is_partial: false
 fields:
@@ -42,3 +43,6 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- content/project/hugo-scientific-theme.md
+- content/project/grav-theme-ibraintech.md
