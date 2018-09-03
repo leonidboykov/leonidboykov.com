@@ -13,7 +13,7 @@ post contains old pipeline for deploying my static site.
 ~~This website is powered by Hugo static site generator and hosted by Github
 Pages.~~
 
-Repository with the name `<username>.github.io` uses `master` branch as website
+Repository with the name `username.github.io` uses `master` branch as website
 content. You can also provide a Jekyll-based website to master branch, but I
 prefer to use  the [Hugo](https://gohugo.io), due to its performance and
 features. Also, I like to keep both source and generated code in same repository
@@ -68,8 +68,8 @@ after_success:
 env:
   global:
     - GIT_NAME: "Travis CI"
-    - GITHUB_USER: <user_name>
-    - GITHUB_REPO: <github_repo>
+    - GITHUB_USER: username
+    - GITHUB_REPO: github_repo
     - TARGET_BRANCH: master
 ```
 

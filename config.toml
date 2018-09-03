@@ -7,7 +7,7 @@ theme = "mercy"
 copyright = "Copyright &copy; {year} Leonid Boykov"
 
 pygmentsCodeFences = true
-pygmentsStyle = "friendly"
+pygmentsStyle = "dracula"
 pygmentsOptions = "nobackground=false"
 
 disqusShortname = "leonidboykov"
@@ -16,6 +16,8 @@ disqusShortname = "leonidboykov"
   twitter = "leonidboykov"
 
 [params]
+  subTitle = "Hobbyist Programmer"
+
   githubUsername = "leonidboykov"
   gitlabUsername = "leonidboykov"
   bitbucketUsername = "leonidboykov"
