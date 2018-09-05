@@ -17,6 +17,7 @@ disqusShortname = "leonidboykov"
 
 [params]
   subTitle = "Hobbyist Programmer"
+  favicon = "favicon-256.png"
 
   githubUsername = "leonidboykov"
   gitlabUsername = "leonidboykov"
