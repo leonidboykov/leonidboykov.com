@@ -1,6 +1,9 @@
 ---
 title: About
 date: 2017-09-10T02:25:08+03:00
+menu:
+  main:
+    weight: 1
 disableComments: true
 ---
 
