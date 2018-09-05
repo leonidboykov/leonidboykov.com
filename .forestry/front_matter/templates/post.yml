@@ -29,6 +29,6 @@ fields:
   hidden: false
   default: true
 pages:
-- content/post/windows-package-manager.md
 - content/post/hugo-github-travis.md
+- content/post/windows-package-manager.md
 - content/post/hello-world.md
