@@ -1,0 +1,3 @@
+[submodule "themes/mercy"]
+	path = themes/mercy
+	url = git@github.com:leonidboykov/hugo-theme-mercy.git
