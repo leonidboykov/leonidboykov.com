@@ -1,4 +1,4 @@
-baseURL = "https://www.leonidboykov.com/"
+baseURL = "https://leonidboykov.com/"
 languageCode = "en"
 
 title = "Leonid Boykov"
@@ -19,9 +19,9 @@ disqusShortname = "leonidboykov"
   subTitle = "Hobbyist Programmer"
   favicon = "/uploads/favicon-256.png"
 
-  githubUsername = "leonidboykov"
-  gitlabUsername = "leonidboykov"
-  bitbucketUsername = "leonidboykov"
+  github = "leonidboykov"
+  gitlab = "leonidboykov"
+  bitbucket = "leonidboykov"
 
 [[menu.main]]
   url = "/post/"
