@@ -1,1 +1,8 @@
-exclude = ["leonidboykov.github.io", "leonidboykov.com", "scoop-bucket", "homebrew-tap", "docker-caddy-git", "metalplanetgames.com"]
+exclude = [
+  "leonidboykov.github.io",
+  "leonidboykov.com",
+  "scoop-bucket",
+  "homebrew-tap",
+  "docker-caddy-git",
+  "metalplanetgames.com"
+]
