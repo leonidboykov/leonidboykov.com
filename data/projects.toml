@@ -1,8 +1,19 @@
-exclude = [
-  "leonidboykov.github.io",
-  "leonidboykov.com",
-  "scoop-bucket",
-  "homebrew-tap",
-  "docker-caddy-git",
-  "metalplanetgames.com"
-]
+[github]
+  ignore = [
+    "leonidboykov.github.io",
+    "leonidboykov.com",
+    "scoop-bucket",
+    "homebrew-tap",
+    "docker-caddy-git",
+    "metalplanetgames.com"
+  ]
+
+[gitlab]
+  ignore = [
+    "leonidboykov.gitlab.io"
+  ]
+
+[bitbucket]
+  ignore = [
+    "leonidboykov.bitbucket.io"
+  ]
