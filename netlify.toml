@@ -17,7 +17,7 @@
   command = "hugo --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
 
   [context.branch-deploy.environment]
-    HUGO_VERSION = "0.48"
+    HUGO_VERSION = "0.53"
 
 [[redirects]]
   from = "https://leonidboykov.netlify.com/*"
